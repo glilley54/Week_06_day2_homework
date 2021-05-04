@@ -21,7 +21,11 @@ describe('Park', function() {
   });
 
 
-  it('should have a collection of dinosaurs');
+  it('should have a collection of dinosaurs', function (){
+    const expected = [];
+    assert.deepStrictEqual(park.dinoCollection, expected);
+
+  });
    
 
   it('should be able to add a dinosaur to its collection');
