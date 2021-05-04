@@ -5,4 +5,9 @@ const Park = function (name, price, dinoCollection){
 
 };
 
+Park.prototype.addDinosaur = function (dino) {
+    this.dinoCollection.push(dino);
+};
+
+
     module.exports = Park;
